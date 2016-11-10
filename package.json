@@ -1,0 +1,26 @@
+{
+  "name": "learningreact",
+  "version": "1.0.0",
+  "description": "this will help me to learn react side by side ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theSupermacy/learning-React.git"
+  },
+  "keywords": [
+    "react",
+    "native"
+  ],
+  "author": "supermacy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theSupermacy/learning-React/issues"
+  },
+  "homepage": "https://github.com/theSupermacy/learning-React#readme",
+  "dependencies": {
+    "eslint-config-rallycoding": "^3.1.0"
+  }
+}
