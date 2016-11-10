@@ -1,0 +1,3 @@
+rootProject.name = 'virginReact'
+
+include ':app'
