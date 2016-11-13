@@ -1,6 +1,15 @@
 import React from 'react';
-import { Text, AppRegistry } from 'react-native';
+import { AppRegistry, View } from 'react-native';
+import Header from './src/Components/Header';
+import AddList from './src/Components/AddList';
 
-const app = () => (<Text> This is sparta</Text>);
+const name = 'Its Albums!';
+
+
+const app = () => (
+  <View>
+  <Header headerName={name} />
+  <AddList />
+</View>);
 
 AppRegistry.registerComponent('virginReact', () => app);
