@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { Text, ScrollView } from 'react-native';
 import axios from 'axios';
 import AlbumDetail from './AlbumDetail';
+
 class AddList extends Component {
   state: {
     albums :[]
@@ -22,9 +23,9 @@ class AddList extends Component {
   }
 
   render() {
-    return (<View>
+    return (<ScrollView>
     {this.setList()}
-    </View>);
+    </ScrollView>);
   }
 }
 
