@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 import axios from 'axios';
-
+import AlbumDetail from './AlbumDetail';
 class AddList extends Component {
   state: {
     albums :[]
@@ -17,8 +17,8 @@ class AddList extends Component {
 
   setList() {
     if (this.state == null)
-      return (<Text key={null}>'abhi aaya nahi hain'</Text>);
-    return (this.state.albums.map(album => <Text key={album.title}> {album.title}</Text>));
+      return (<Text key={null}>abhi aaya nahi hain</Text>);
+    return (this.state.albums.map(album => <AlbumDetail album ={album} key={album.title} />));
   }
 
   render() {
