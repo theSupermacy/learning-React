@@ -18,7 +18,7 @@ class AddList extends Component {
   setList() {
     if (this.state == null)
       return (<Text key={null}>abhi aaya nahi hain</Text>);
-    return (this.state.albums.map(album => <AlbumDetail album ={album} key={album.title} />));
+    return (this.state.albums.map(album => <AlbumDetail album={album} key={album.title} />));
   }
 
   render() {
